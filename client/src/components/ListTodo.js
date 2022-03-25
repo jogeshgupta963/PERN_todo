@@ -5,8 +5,9 @@ function ListTodo() {
     const [todo, setTodo] = useState([]);
     useEffect(async () => {
         let todos = await axios.get('http://localhost:3001/todos/getAll')
-        // console.log(todos.data);
+        // console.log(todos.data)
         setTodo([todos.data])
+        // console.log(todo);
     }, [])
     console.log(todo[0])
     return (
@@ -28,6 +29,7 @@ function ListTodo() {
                     </div>
                 </div>
             )}
+
         </Fragment >
     )
 }
