@@ -7,21 +7,7 @@
   bottom: 2.4rem;
   left: 100%;
 }
-.todo-table {
-  display: flex;
-  justify-content: center;
-  /* flex-direction: row;
-  align-items: center; */
-}
-
-.flex {
-  display: flex;
-  flex-direction: row;
-  /* justify-content: flex-; */
-  /* gap: 11rem; */
-  border-bottom: 1.5px solid black;
-}
-.desc {
-  display: flex;
-  /* justify-content: flex-start; */
+.grid-container {
+  display: grid;
+  column-gap: 50px;
 }

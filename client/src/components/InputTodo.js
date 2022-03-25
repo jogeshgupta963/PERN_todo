@@ -20,10 +20,10 @@ function InputTodo() {
     return (
         <Fragment>
             <h1 className='text-center mt-5 md-5'>Todo List</h1>
-            <form className='todo-container'>
+            <form className='todo-container d-flex'>
                 <input type="text" placeholder="todos..." className='form-control
                 ' onChange={changeHandle} />
-                <button className='todoBtn btn btn-success' onClick={clickHandle} >Add..</button>
+                <button className=' btn btn-success' onClick={clickHandle} >Add..</button>
             </form>
         </Fragment>
     )
