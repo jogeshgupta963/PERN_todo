@@ -4,6 +4,6 @@
 
 ### Tech Stack used: PERN Stack
 
-### database: Postgresql
-### Frontend: React.js
-### Backend : Node,Express.js
+ database: Postgresql
+ Frontend: React.js
+ Backend : Node,Express.js
